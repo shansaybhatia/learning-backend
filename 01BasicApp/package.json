@@ -1,0 +1,20 @@
+{
+  "name": "01basicapp",
+  "version": "1.0.0",
+  "description": "A basic app to deploy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "Node",
+    "app",
+    "App"
+  ],
+  "author": "Shansay Bhatia",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

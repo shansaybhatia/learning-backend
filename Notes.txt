@@ -1,0 +1,38 @@
+File structure for backend development:
+    1. **Project Root**
+        - README.md
+        - package.json
+        - .gitignore
+        - .env
+        - server.js (or app.js)
+    2. **src**
+        index.js
+        app.js
+        constants.js
+        -**Database**
+            - **database**
+            - db.js
+        - **controllers**
+            - userController.js
+            - authController.js
+            - productController.js
+        - **models**
+            - userModel.js
+            - productModel.js
+        - **routes**
+            - userRoutes.js
+            - authRoutes.js
+            - productRoutes.js
+        - **middlewares**
+            - authMiddleware.js
+            - errorMiddleware.js
+        - **utils**
+            - logger.js
+            - validator.js
+    3. **config**
+        - dbConfig.js
+    4. **tests**
+        - user.test.js
+        - auth.test.js
+        - product.test.js
+    
