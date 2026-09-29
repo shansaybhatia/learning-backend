@@ -1,0 +1,20 @@
+{
+  "name": "mytube-backend",
+  "version": "1.0.0",
+  "description": "learning backend development by creating my version of youtube i.e. mytube",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "javascript",
+    "mytube",
+    "backend"
+  ],
+  "author": "ShansayBhatia",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
